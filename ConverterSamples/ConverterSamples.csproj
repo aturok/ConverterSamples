@@ -152,6 +152,12 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\SocialIcons\social_googleplus.png" />
+    <Content Include="Assets\SocialIcons\social_facebook.png" />
+    <Content Include="Assets\SocialIcons\social_foursquare.png" />
+    <Content Include="Assets\SocialIcons\social_linkedin.png" />
+    <Content Include="Assets\SocialIcons\social_microsoft.png" />
+    <Content Include="Assets\SocialIcons\social_twitter.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
