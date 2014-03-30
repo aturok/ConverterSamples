@@ -27,5 +27,10 @@ namespace ConverterSamples
         {
             NavigationService.Navigate(new Uri("/IntToBrushConverterPage.xaml", UriKind.Relative));
         }
+
+        private void objToResourceButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/ObjToStringResourcePage.xaml", UriKind.Relative));
+        }
     }
 }

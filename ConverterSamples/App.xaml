@@ -10,6 +10,7 @@
         <local:LocalizedStrings x:Key="LocalizedStrings"/>
         <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
         <local:PriorityToBrushConverter x:Key="PriorityToBrushConverter"/>
+        <local:ItemToDescriptionConverter x:Key="ItemToDescriptionConverter" />
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>
