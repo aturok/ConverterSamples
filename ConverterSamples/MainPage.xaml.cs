@@ -32,5 +32,10 @@ namespace ConverterSamples
         {
             NavigationService.Navigate(new Uri("/ObjToStringResourcePage.xaml", UriKind.Relative));
         }
+
+        private void stringToImageButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/StringToImagePage.xaml", UriKind.Relative));
+        }
     }
 }

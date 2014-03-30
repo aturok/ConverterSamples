@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Converters\ItemToDescriptionConverter.cs" />
     <Compile Include="Converters\PriorityToBrushConverter.cs" />
+    <Compile Include="Converters\SocialKindToIconConverter.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -106,6 +107,7 @@
     <Compile Include="Models\BooleanToVisibilityViewModel.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ObjectToResourceStringViewModel.cs" />
+    <Compile Include="Models\StringToImageViewModel.cs" />
     <Compile Include="Models\Task.cs" />
     <Compile Include="ObjToStringResourcePage.xaml.cs">
       <DependentUpon>ObjToStringResourcePage.xaml</DependentUpon>
@@ -118,6 +120,9 @@
     </Compile>
     <Compile Include="IntToBrushConverterPage.xaml.cs">
       <DependentUpon>IntToBrushConverterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StringToImagePage.xaml.cs">
+      <DependentUpon>StringToImagePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +143,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ObjToStringResourcePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StringToImagePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

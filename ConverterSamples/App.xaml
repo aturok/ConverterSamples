@@ -11,6 +11,7 @@
         <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
         <local:PriorityToBrushConverter x:Key="PriorityToBrushConverter"/>
         <local:ItemToDescriptionConverter x:Key="ItemToDescriptionConverter" />
+        <local:SocialKindToIconConverter x:Key="SocialKindToIconConverter" />
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>
