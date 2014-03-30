@@ -22,5 +22,10 @@ namespace ConverterSamples
         {
             NavigationService.Navigate(new Uri("/BooleanToVisibilityConverterPage.xaml", UriKind.Relative));
         }
+
+        private void intToBrushButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/IntToBrushConverterPage.xaml", UriKind.Relative));
+        }
     }
 }
