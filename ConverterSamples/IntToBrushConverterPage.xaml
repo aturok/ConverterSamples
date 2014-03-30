@@ -27,7 +27,7 @@
             <StackPanel>
                 <Rectangle x:Name="PriorityColor" Fill="{Binding Priority, Converter={StaticResource PriorityToBrushConverter}}"
                            Width="200" Height="50" />
-                <TextBox x:Name="Title" Text="{Binding Title, Mode=TwoWay}" />
+                <TextBox x:Name="TitleBox" Text="{Binding Title, Mode=TwoWay}" />
                 <Slider Minimum="0" Maximum="2" Value="{Binding Priority, Mode=TwoWay}" />
             </StackPanel>
         </Grid>
